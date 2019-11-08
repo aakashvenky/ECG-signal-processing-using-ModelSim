@@ -1,0 +1,59 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/firfilt_tb/filter_out_expected
+// format=hex addressradix=h dataradix=h version=1.0 wordsperline=18
+  @0 fee 003 029 012 00f ffa fe0 fe5 fcb fee ff6 017 048 038 064 01b fff fc2
+ @12 f53 f88 f2b ff2 087 122 339 fdb c55 ee4 fdc 022 146 0ee 0e6 02f f64 f37
+ @24 e9f f4c f91 fff 14c 17a 2ae 165 fe4 e12 840 e72 565 ff0 039 011 102 699
+ @36 feb 9fc ebf 097 f56 03f d66 a61 170 97d 933 fec 830 b38 da8 e8c 0dc 129
+ @48 1a4 200 1d7 109 0f3 f9a ea3 d58 8cb f8f 719 253 10b 043 e84 f54 edc 022
+ @5a 04e 012 01b f26 f74 ecd feb 0e1 255 6ad 01e 816 d5d e99 e0d 53d 459 ef7
+ @6c fb8 f90 f04 fb9 f56 f8b fea 010 079 05b 083 0cc 033 00d f7d ef7 f51 f2e
+ @7e fb8 f9f 09e 183 15e 318 0ae fc1 d4a 763 eac 472 1a2 0b3 22e 600 ffc 9b1
+ @90 e7c 0da fa1 02e dff 935 0ce 803 4b4 6cf f51 63e bf3 da3 f20 230 163 2bb
+ @a2 22e 18c 1a9 ec7 eee cd0 881 fbd 693 303 0c9 0aa ecf ed5 f85 ee9 081 ff2
+ @b4 fb7 06e e4f 116 f41 187 592 ace 01e 3f4 a20 df4 eb6 2f5 57e daf 03e fcd
+ @c6 e56 05d ec2 04b 035 085 134 005 08d f63 f2d f27 ec7 ff4 fb0 0b7 1e9 21b
+ @d8 25d 04b f07 c4b 7d7 dbd 647 296 27f 757 ec7 93e de5 fce 144 051 fdd daf
+ @ea 9e5 138 956 8e8 011 818 b67 dc0 e97 0f5 141 1d7 198 19d 153 10c fa2 e8b
+ @fc d07 88e fa9 749 286 153 07e eb4 f42 ea0 fa8 fb5 f93 fbf f5f 01c 04f 1d6
+@10e 3cb 2af b7a 8a9 1f4 357 ea6 0dc 0dc ffb 04a f8d fd1 fae fb9 026 083 074
+@120 049 ff4 f63 f5e f02 f7b f7a 070 1ba 19b 2e0 099 fd3 d4a 763 eac 472 1a2
+@132 0b3 22e 600 ffc 9b1 e7c 0da fa1 02e dff 935 0ce 803 4b4 6cf f51 63e bf3
+@144 da3 f20 230 163 298 257 1b6 1a4 f0e e95 c97 84e f6a 70b 2c7 150 106 ed6
+@156 f96 eb6 f2f f7b efe fd8 ec4 074 0f6 23d 6f5 f96 8b3 d70 f2d 03d 1d0 143
+@168 161 07d ffc f78 f13 f72 f7b fee 050 0e0 0b2 069 005 f3c f3c ecd f50 f96
+@17a 0aa 1aa 172 306 0ae fc1 d4a 763 eac 472 1a2 0b3 22e 600 ffc 9b1 e7c 0da
+@18c fa1 02e dff 935 0ce 803 4b4 6cf f51 63e bf3 da3 f20 230 163 2a9 243 190
+@19e 1bb f11 eaa cc2 834 f5d 6ff 2c2 145 0ef ee2 f83 edc f42 f97 f3c fb4 ef5
+@1b0 ff6 09f 1b5 500 2ed c9c a46 df6 f06 ea6 52c 4b7 e65 f7a f75 ebb fd4 f5a
+@1c2 fe3 ff4 015 087 04a 064 04c 06f 017 fb3 f82 f4b f5b f51 fc1 ff1 0d0 160
+@1d4 1e1 240 03c efd ae7 aef 238 20f 0dd 041 167 65e fc7 a32 ea4 0cf 002 004
+@1e6 e26 91e 0a8 815 46c 6e1 f2b 627 c1a d79 f81 226 18b 33b 21c 1c0 0b8 e7c
+@1f8 ddb a73 c0f 35f 4ca 214 0ae f9c ec7 eb0 f04 fa6 01f 090 07a 02a 033 fce
+@20a fea ff7 ffe 071 02b 06c ffe f8d f75 e6e f67 f8d 119 3ef 128 000 ed7 c10
+@21c ee6 072 0a9 17c 063 089 004 fa9 fee f67 022 037 033 030 f90 fa7 f24 f94
+@22e fcd fdd 12c 150 276 15c fc4 e0c 850 e84 58f ff3 028 011 102 699 feb a0e
+@240 eaa 071 f6d 041 d7c a7a 16b 997 90f fe4 80f b07 db9 e60 125 144 1e1 26f
+@252 1a2 189 026 ec4 dbd afe c75 37b 4e2 1ae 07c f3d ed3 edf f30 01d 057 090
+@264 01d 000 fa2 f53 fcd fa1 0e9 11f 1f1 364 ed3 a62 a2a ea9 3dd 389 58f 42a
+@276 bdd ad5 dac f09 0ac 120 172 12d 099 056 f8d f20 f2d f56 fcd 02c 067 0e5
+@288 0db 062 fd6 f42 f16 ed6 f93 feb 017 142 169 27a 14b fc4 e0c 850 e84 58f
+@29a ff3 028 011 102 699 feb 9fc ebf 097 f56 03f d66 a61 170 97d 933 fec 830
+@2ac b38 da8 e8c 0dc 129 1a4 200 1d7 12c 0db f39 ebd d71 8bf fda 72e 274 124
+@2be 028 e65 ee1 e9c fcb 03e 06b 073 02c fef f7f fb0 f8b 0bf 126 364 1df 832
+@2d0 b62 2b6 202 4b0 13f cc4 f4b f2f fb7 056 ff7 091 016 03c 03b fd3 fb5 f99
+@2e2 fd5 fed 007 046 0bf 0a0 04e fa5 f1e f33 eee fb4 f9c 087 1aa 172 306 0ae
+@2f4 fc1 d4a 763 eac 472 1a2 0b3 22e 600 ffc 9b1 e7c 0da fa1 02e dff 935 0ce
+@306 803 4b4 6cf f51 63e bf3 da3 f20 230 163 2bb 251 163 16e ef1 eca ce9 893
+@318 fbc 711 2e8 0fe 073 e57 ec5 eae f33 04a 068 0de 079 01b 01b f31 fcd fbb
+@32a 045 2d4 f1e c85 f60 118 3a0 0b2 cec f85 fdb 010 0bb 014 076 ff6 00d fe9
+@33c f5b fd9 fb3 015 050 015 094 068 056 009 f54 f40 eda f81 feb 017 165 13f
+@34e 22d 179 fca e38 884 e7a 5c3 fab 018 fcf 0a0 6bb f92 aa0 ee1 0eb 04b fd7
+@360 e37 8ed 086 80e 449 6fc f26 640 c2f d7b f98 1ff 177 34c 21c 1af 0bc ea6
+@372 dee a83 c09 33f 4af 1ce 0a0 fcd eee ef0 f21 fb1 012 06b 04b fc9 fff f80
+@384 00d 081 0f3 350 f9c bd1 e81 f03 02c 12a 18f 439 03e c75 ebd f39 fd7 08d
+@396 061 0b7 061 045 fd4 f80 fad f9f ffd ff9 065 0e1 05c 032 f9b f31 f1d f11
+@3a8 fbb feb 0d3 19e 21c 211 037 ed1 ab3 af9 203 256 0ed 083 1c9 63c 020 98d
+@3ba e82 07c f0d 06b d55 a92 191 985 957 fd2 835 b1f d93 e8a 0c5 14f 1b8 1ef
+@3cc 1c5 11e 119 f83 ea1 d42 8b2 fa5 6fc 24d 100 043 ebe f8c f36 01d 03e fbf
+@3de f79 edd ece f26 059 1ef 52e 432 d24 b4d 

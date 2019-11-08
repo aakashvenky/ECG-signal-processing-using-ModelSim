@@ -1,0 +1,13 @@
+myfiltspec=fdesign.bandpass('Fst1,Fp1,Fp2,Fst2,Ast1,Ap,Ast2',10,25,125,150,60,1,60,360);
+myfilt=design(myfiltspec,'equiripple', 'filterstructure', 'dffir', 'SystemObject',true);
+inputDataType=numerictype(1,12,11);
+outputDataType=numerictype(1,12,11);
+coeffsDataType=numerictype(1,16,16);
+myfilt.FullPrecisionOverride=false;
+myfilt.OutputDataType='Custom';
+myfilt.CustomOutputDataType=outputDataType;
+FL=length(myfilt.Numerator);
+dalut=[ones(1,floor(FL/8))*8,mod(FL,8)-4];
+workingdir='C:\Users\user\Desktop\FPGA PROJECT';
+generatehdl(myfilt,'TargetLanguage','Verilog','DALutPartition',dalut,'TargetDirectory',workingdir,'InputDataType',inputDataType);
+generatehdl(myfilt,'TargetLanguage','Verilog','InputDataType',numerictype(1,16,15),'TargetDirectory',workingdir,'GenerateHDLTestbench','on','TestBenchUserStimulus',noise_val)

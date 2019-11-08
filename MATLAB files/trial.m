@@ -1,0 +1,16 @@
+x=val;
+y=awgn(x,5);
+subplot(3,1,1)
+plot(x);
+subplot(3,1,2)
+plot(y);
+mse=sum((x-y).^2)/length(x);
+disp(mse);
+w=50/(250/2);
+bw=w;
+[num,den]=iirnotch(w,bw);
+filtered_y=filter(num,den,y);
+mse1=sum((x-filtered_y).^2)/length(x);
+disp(mse1);
+subplot(3,1,3)
+plot(filtered_y);
